@@ -1,0 +1,33 @@
+h3{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+.productos{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    
+    
+}
+
+.producto{
+    width: 19%;
+    border: 2px solid rgb(63, 59, 59);  
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.producto img{
+    width: 100%;
+
+}
+
+
+.producto p{
+   margin: 2px auto;
+
+}
+

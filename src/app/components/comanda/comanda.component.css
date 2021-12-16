@@ -1,0 +1,15 @@
+h3{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.producto{
+    border: 2px solid rgb(22, 21, 21);
+    cursor: pointer;
+    padding: 3px;
+    margin: 2px;
+    
+    
+}
