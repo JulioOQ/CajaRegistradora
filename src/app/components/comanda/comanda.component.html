@@ -1,8 +1,8 @@
 <h3>Cuenta</h3>
-<p>Total: S/.{{calcularTotal()}}</p>
+<p>Total: S/.{{calcularTotal() | number : '1.2-2'}}</p>
 <div class="productos" >
     <div class="producto" *ngFor="let producto of arraySelecComan; let indice =index" (click)="borrarProducto(indice)">
-        {{producto.nombre}} X{{producto.cantidad}} - S/.{{producto.precio * producto.cantidad}}
+        {{producto.nombre}} X{{producto.cantidad}} - S/.{{(producto.precio * producto.cantidad)| number : '1.2-2'}}
         
     </div>
 </div>
